@@ -1,0 +1,44 @@
+//
+2019-10-12 10:07:37.001, D7F6CB3B7BF44DD49EE6AB98D6DA42AC, upstream - bizType=PROPERTY_REPORT,params=
+{"aliyunPk":"1871506688771034",
+"id":"null",
+"iotId":"G8SK4PyNKj9op0FdrukV000100",
+"method":"thing.event.property.post",
+"proxyName":"thing.event.property.post",
+"topic":"/sys/a1INkiR8Veu/shidu/thing/event/property/post",
+"uniMsgId":"1182840210690408960"}
+,result=code:460,message:request parameter error.,
+topic=/sys/a1INkiR8Veu/shidu/thing/event/property/post,
+response={"code":460,"data":{},"id":"null","message":"request parameter error.","method":"thing.event.property.post","version":"1.0"},device={"aliyunCommodityCode":"iothub_senior","deviceKey":"G8SK4PyNKj9op0FdrukV","deviceSecret":"***","gmtCreate":1570772651000,"gmtModified":1570772651000,"id":57272137,"iotId":"G8SK4PyNKj9op0FdrukV000100","name":"shidu","nickname":"湿度备注","productKey":"a1INkiR8Veu","rbacTenantId":"D7F6CB3B7BF44DD49EE6AB98D6DA42AC","region":"cn-shanghai","status":0,"statusLast":0,"thingType":"DEVICE"},scriptData={},useTime=1,traceId=0bc5f29415708460569944719d07b9
+
+
+//虚拟设备发送的数据
+2019-10-12 10:41:55.333,
+ D7F6CB3B7BF44DD49EE6AB98D6DA42AC, 
+ upstream - bizType=PROPERTY_REPORT,params=
+ {"id":"123",
+ "iotId":"G8SK4PyNKj9op0FdrukV000100",
+ "method":"thing.event.property.post",
+ "params":{"pm25":12,"temperature":12,"humidity":12},
+ "topic":"/sys/a1INkiR8Veu/shidu/thing/event/property/post",
+ "uniMsgId":"4731395375859687424",
+ "version":"1.0"},
+ result=code:200,message:success,topic=/sys/a1INkiR8Veu/shidu/thing/event/property/post,
+ response={"code":200,"data":{},"id":"123","message":"success","method":"thing.event.property.post","version":"1.0"},device={"aliyunCommodityCode":"iothub_senior","deviceKey":"G8SK4PyNKj9op0FdrukV","deviceSecret":"***","gmtCreate":1570772651000,"gmtModified":1570772651000,"id":57272137,"iotId":"G8SK4PyNKj9op0FdrukV000100","name":"shidu","nickname":"湿度备注","productKey":"a1INkiR8Veu","rbacTenantId":"D7F6CB3B7BF44DD49EE6AB98D6DA42AC","region":"cn-shanghai","status":0,"statusLast":0,"thingType":"DEVICE"},scriptData={},traceId=0bc062a115708481152771541d5655
+
+
+
+//最终版本 传递数据是需要用params包裹一下,个人猜测服务端合并数据用的是object.asigin
+ 2019-10-12 11:32:32.638, 
+ D7F6CB3B7BF44DD49EE6AB98D6DA42AC, 
+ upstream - bizType=PROPERTY_REPORT,params=
+ {"aliyunPk":"1871506688771034",
+ "id":"1570851152597",
+ "iotId":"G8SK4PyNKj9op0FdrukV000100",
+ "method":"thing.event.property.post",
+ "params":{"pm25":87},
+ "proxyName":"thing.event.property.post",
+ "topic":"/sys/a1INkiR8Veu/shidu/thing/event/property/post",
+ "uniMsgId":"1182861583353705472"},
+ result=code:200,message:success,topic=/sys/a1INkiR8Veu/shidu/thing/event/property/post,
+ response={"code":200,"data":{},"id":"1570851152597","message":"success","method":"thing.event.property.post","version":"1.0"},device={"aliyunCommodityCode":"iothub_senior","deviceKey":"G8SK4PyNKj9op0FdrukV","deviceSecret":"***","gmtCreate":1570772651000,"gmtModified":1570772651000,"id":57272137,"iotId":"G8SK4PyNKj9op0FdrukV000100","name":"shidu","nickname":"湿度备注","productKey":"a1INkiR8Veu","rbacTenantId":"D7F6CB3B7BF44DD49EE6AB98D6DA42AC","region":"cn-shanghai","status":0,"statusLast":0,"thingType":"DEVICE"},scriptData={},useTime=2,traceId=0bc061e415708511526323761d5b5e
