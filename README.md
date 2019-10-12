@@ -1,0 +1,4 @@
+# rufftest
+基于ruff开发的一些程序实验
+lot不是基于ruff而是基于nodejs模拟的一个设备，定时向阿里云推送数据
+demo1是基于ruff开发的一个采集温湿度的设备。
